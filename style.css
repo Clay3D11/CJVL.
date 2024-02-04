@@ -313,8 +313,21 @@ section h4 {
     border-radius: 50px;
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
 }
+
+  main {
+  padding: 1.5rem;
+  padding-top: 1.5rem; /* Add padding to avoid overlap with header */
+
+  background-image: url(/IMG/PinkSky.jpg);
+  background-attachment: fixed;
+  /* background-size: contain; */
   
-  .mainname {
+  display: grid;
+  justify-content: center;
+  
+}
+  
+.mainname {
     background-image: url(https://i.pinimg.com/originals/a5/6a/ca/a56acad828263b69f6e1583ce811b8e7.gif);
     background-size: cover;
     background-position: center;
