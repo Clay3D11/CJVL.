@@ -116,7 +116,7 @@ main {
 
 /* Section Properties */
 section {
-    height:  calc(100vh - 7rem);
+    /* height:  calc(100vh - 7rem); */
     max-width: 45rem;
     /* width: calc(90vh - 7rem); */
     /*Subtracttheheightoftheheaderandfooterfromtheviewportheight*/overflow-y: auto;
@@ -124,9 +124,9 @@ section {
     /*border-radius: 5rem;
     box-shadow: 0 9px 15px rgba(191, 191, 191, 0.50);
     */
-    /* padding:  1rem; */
+    padding:  1rem;
     /* align-content: center; */
-    margin:  2rem 0;
+    margin:  1rem 0;
     display: grid;
     /* place-items: center; */
     /* display: flex; */
@@ -176,9 +176,9 @@ p {
   place-items: center;
 
   /* background-color: #fff; */
-  background: url(./IMG/trippy.gif);
+  background: url(./IMG/lze213bun4m51.gif);
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 
 
@@ -290,23 +290,25 @@ section h4 {
     /* height:  calc(100vh - 7rem); */
     /* max-width: 45rem; */
     /* width: calc(90vh - 7rem); */
-    /*Subtracttheheightoftheheaderandfooterfromtheviewportheight*/overflow-y: auto;
-    /*Enablescrollingifcontentislargerthantheviewport*/ text-align: center;
+    /*Subtracttheheightoftheheaderandfooterfromtheviewportheight*/
+    /* overflow-y: auto; */
+    /*Enablescrollingifcontentislargerthantheviewport*/
+    /* text-align: center; */
     /*border-radius: 5rem;
     box-shadow: 0 9px 15px rgba(191, 191, 191, 0.50);
     */
-    /* padding:  1rem; */
+    padding:  1rem;
     /* align-content: center; */
-    margin:  2rem 0;
-    display: grid;
+    margin:  1rem 0;
+    /* display: grid; */
     /* place-items: center; */
     /* display: flex; */
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
     /* place-items:  center; */
     /* align-items: start; */
 
-    background-image: url(/IMG/);
+    /* background-image: url(/IMG/); */
     /*background-color: #ffffff 05;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(25px);
@@ -316,8 +318,8 @@ section h4 {
     -o-border-radius: 50px;
     */
     /* background: rgba(255, 255, 255, 0.1); */
-    backdrop-filter: blur(10px);
-    border-radius: 50px;
+    /* backdrop-filter: blur(10px); */
+    /* border-radius: 50px; */
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
 }
 
