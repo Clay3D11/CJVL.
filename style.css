@@ -38,9 +38,16 @@ main {
     padding: 1.5rem;
     padding-top: 1.5rem; /* Add padding to avoid overlap with header */
 
-    background-image: url(/IMG/rainpic.jpg);
+    /* background-image: url(/IMG/rainpic.jpg); */
     background-attachment: fixed;
     /* background-size: contain; */
+
+    background: #2b2f77;
+background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+
+
+    background-color: #333;
     
     display: grid;
     justify-content: center;
@@ -182,8 +189,8 @@ p {
   background-size: contain;
 
 
-  border-radius: 30px;
-  box-shadow: 0 10px 12px rgba(255, 255, 255, 0.5);
+  /* border-radius: 30px;
+  box-shadow: 0 10px 12px rgba(255, 255, 255, 0.5); */
   
   padding: 20px;
   text-align: center;
@@ -191,10 +198,10 @@ p {
   /* width: 100%; */
   max-height: 200px;
   overflow-y: auto;
-  -webkit-border-radius: 30px;
+  /* -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  -o-border-radius: 30px; */
 }
 
 #quote-text {
@@ -908,12 +915,13 @@ body {
   padding: 1.5rem;
   padding-top: 2.5rem; /* Add padding to avoid overlap with header */
 
-/*   background-image: url(/IMG/200w.gif); */
+  /* background-image: url(/IMG/200w.gif); */
   /* background-attachment: fixed; */
   /* background-size: contain; */
   /* background-size: cover; */
-  background-position: center;
+  /* background-position: center; */
   /* background-repeat: no-repeat; */
+  
   
   display: grid;
   justify-content: center;
