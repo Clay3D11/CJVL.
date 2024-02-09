@@ -908,7 +908,7 @@ body {
   padding: 1.5rem;
   padding-top: 2.5rem; /* Add padding to avoid overlap with header */
 
-  background-image: url(/IMG/200w.gif);
+/*   background-image: url(/IMG/200w.gif); */
   /* background-attachment: fixed; */
   /* background-size: contain; */
   /* background-size: cover; */
