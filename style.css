@@ -42,9 +42,9 @@ main {
     background-attachment: fixed;
     /* background-size: contain; */
 
-    background: #2b2f77;
-background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
-background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    /* background: #2b2f77; */
+    /* background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%); */
+    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
 
 
     background-color: #333;
@@ -65,12 +65,22 @@ background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
   -webkit-background-clip: text;
 
 
+
+
   font-size: 70px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0;
   padding-top: 50px;
   letter-spacing: 7px;
 
+}
+
+.mainheadingbusinesscard {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  
 }
 
 .marqueemain {
@@ -157,6 +167,11 @@ section {
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
 }
 
+.home-wrapper {
+  display: grid;
+  justify-items: center;
+}
+
 h2 {
     font-size: 40px;
     color: #fff;
@@ -178,30 +193,29 @@ p {
 
 /* Quote Generator */
 
-#quote-container {
+/* #quote-container {
   margin: 15px;
   place-items: center;
 
-  /* background-color: #fff; */
+  background-color: #fff;
   background: url(./IMG/starts.gif);
   background-position: center;
-  /* background-repeat: no-repeat; */
   background-size: contain;
 
 
-  /* border-radius: 30px;
-  box-shadow: 0 10px 12px rgba(255, 255, 255, 0.5); */
+  border-radius: 30px;
+  box-shadow: 0 10px 12px rgba(255, 255, 255, 0.5);
   
   padding: 20px;
   text-align: center;
   max-width: 600px;
-  /* width: 100%; */
+  width: 100%;
   max-height: 200px;
   overflow-y: auto;
-  /* -webkit-border-radius: 30px;
+  -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  -o-border-radius: 30px; */
+  -o-border-radius: 30px;
 }
 
 #quote-text {
@@ -238,7 +252,7 @@ p {
 
 #new-quote-btn:hover {
   background-color: #2980b9;
-}
+} */
 
 /* About Me */
 /* About Me */
@@ -266,7 +280,7 @@ img {
   border-radius: 10%;
   max-width: 15rem;
   
-  aspect-ratio: 3/2;
+  /* aspect-ratio: 3/2; */
   object-fit: cover;
   
   
@@ -541,6 +555,60 @@ h3 {
 
 
 
+/* Marquee Socials */
+/* Marquee Socials */
+/* Marquee Socials */
+/* Marquee Socials */
+
+
+.marqueesocial {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  /* padding: 20px; */
+  /* border: 1px solid #ccc; */
+}
+
+.marqueesocial div {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: scroll 20s linear infinite;
+}
+
+.marqueesocial div img {
+  /* width: auto; */
+  height: 3rem;
+  margin: 20px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Card-Warpper */
 /* Card-Warpper */
@@ -751,9 +819,8 @@ section h4 {
     font-size: 15px;
     text-transform:  uppercase;
     letter-spacing: .4rem;
-    /* line-height: 1.5em; */
+    line-height: 2.5em;
     margin: 10px 0;
-    
     max-width: 100%;
     text-decoration: none;
 }
@@ -773,9 +840,9 @@ section h4 {
 } */
 
 /* Styles for the project section */
-body {
+/* body {
   font-family: Arial, sans-serif;
-}
+} */
 
 .project-section {
   display: flex;
@@ -787,12 +854,18 @@ body {
 .project-card {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
+
   /* background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% ); */
-  background-color: #fff;
+  background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+  /* background-color: #fff; */
+  background-position: center;
+
+
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  
 }
 
 .project-card:hover {
@@ -802,17 +875,23 @@ body {
 .project-card h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #333;
+  color: #ffffff;
 }
 
 .project-card p {
   font-size: 16px;
-  color: #666;
+  color: #ffffff;
 }
 
 .project-card ul {
+  
   margin-top: 10px;
   list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  
 }
 
 .project-card ul li {
@@ -823,6 +902,10 @@ body {
   border-radius: 5px;
   font-size: 14px;
   color: #333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .project-card a {
