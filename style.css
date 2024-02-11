@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
 * {
     box-sizing: border-box;
 }
@@ -9,7 +11,8 @@ body {
 
 /* Header Properties */
 header {
-    background-color: #333;
+    /* background-color: #333; */
+    background-image: url(./IMG/starts.gif);
     color: #fff;
     padding: 1rem;
     position: fixed;
@@ -22,21 +25,26 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 header nav a {
     color: #fff;
     text-decoration: none;
     margin-right: 1rem;
+    font-size: 1.9rem;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    
 }
 header nav a:hover {
-    color: #ccc;
+    color: #030303;
+    font-weight: 700;
 }
 
 /* Main Properties */
 main {
-    padding: 1.5rem;
-    padding-top: 1.5rem; /* Add padding to avoid overlap with header */
+    /* padding: 1.5rem; */
+    padding-top: 5.5rem; /* Add padding to avoid overlap with header */
 
     /* background-image: url(/IMG/rainpic.jpg); */
     background-attachment: fixed;
@@ -45,8 +53,10 @@ main {
     /* background: #2b2f77; */
     /* background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%); */
     background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background-image: url(/IMG/starts.gif);
+    /* background-image: url(https://i.gifer.com/81mz.gif); */
 
-
+    
     background-color: #333;
     
     display: grid;
@@ -77,9 +87,11 @@ main {
 }
 
 .mainheadingbusinesscard {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-weight: bold; */
   font-style: italic;
+  font-size: 3rem;
+  font-family: 'Dancing Script';
   
 }
 
@@ -134,16 +146,16 @@ main {
 /* Section Properties */
 section {
     /* height:  calc(100vh - 7rem); */
-    max-width: 65rem;
+    max-width: 100rem;
     /* width: calc(90vh - 7rem); */
     /*Subtracttheheightoftheheaderandfooterfromtheviewportheight*/overflow-y: auto;
     /*Enablescrollingifcontentislargerthantheviewport*/ text-align: center;
     /*border-radius: 5rem;
     box-shadow: 0 9px 15px rgba(191, 191, 191, 0.50);
     */
-    padding:  1rem;
+    padding:  5rem;
     /* align-content: center; */
-    margin:  1rem 0;
+    margin:  2rem 0;
     display: grid;
     /* place-items: center; */
     /* display: flex; */
@@ -269,16 +281,16 @@ p {
   place-items: center;
   align-content: space-evenly;
   
-  gap: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* gap: 30px; */
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
 
     
 }
 
 img {
   border-radius: 10%;
-  max-width: 15rem;
+  max-width: 13rem;
   
   /* aspect-ratio: 3/2; */
   object-fit: cover;
@@ -453,12 +465,14 @@ h3 {
 .icon-box-div {
   text-align: center;
   position:  absolute;
-  bottom: 30px;
-  left: 160px;
-  font-size: 2.5rem;
+  bottom: 110px;
+  /* left: 160px; */
+  font-size: 3.5rem;
+  width: 100%;
+  align-content: space-evenly;
 }
 .back .icon-box:hover {
-  box-shadow: inset 0 80px 0 0 #000;
+  box-shadow: inset 0 90px 0 0 #000;
   color: #fff;
 }
 
@@ -484,7 +498,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:  30px;
   margin: 20px;
+  display: inline-flex;
 }
 
 
@@ -665,8 +681,12 @@ h3 {
 .card-front {
   /* background-color: #6A2C70; */
   /* background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% ); */
-  background-image: url(https://cdn.pixabay.com/photo/2022/09/11/19/35/circuit-7447920_1280.png);
-  background-size: cover;
+  /* background-image: url(https://cdn.pixabay.com/photo/2022/09/11/19/35/circuit-7447920_1280.png); */
+  background-image: url(/IMG/starts.gif);
+  /* background-size: cover; */
+
+
+
   color: #fff;
   display: flex;
   align-items: center;
@@ -715,7 +735,7 @@ h3 {
 /* Business Card 2nd */
 
 .p2nd {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -732,8 +752,9 @@ h3 {
   height: 200px;
   
   /* background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% ); */
-  background-image: url(https://cdn.pixabay.com/photo/2022/09/11/19/35/circuit-7447920_1280.png);
-  background-size: cover;
+  /* background-image: url(https://cdn.pixabay.com/photo/2022/09/11/19/35/circuit-7447920_1280.png); */
+  background-image: url(/IMG/starts.gif);
+  /* background-size: cover; */
   border-radius: 10px;
 
   display: flex;
@@ -873,13 +894,15 @@ section h4 {
 }
 
 .project-card h2 {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 800;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
 .project-card p {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -945,6 +968,14 @@ ul {
 
 
 
+.project-title {
+  font-size: 2rem;
+  font-family: 'Dancing Script';
+}
+
+
+
+
 
 
 
@@ -953,6 +984,17 @@ ul {
    
 
 @media (max-width: 430px) {
+  header nav a {
+    text-size-adjust: 1rem;
+    margin: 0;
+    /* padding-left: 20px; */
+    font-size: 1.7rem;
+    /* width: 100vh;
+    height: 25px; */
+    
+  }
+
+
   section {
     /* height:  calc(100vh - 7rem); */
     /* max-width: 45rem; */
@@ -966,7 +1008,7 @@ ul {
     */
     padding:  1rem;
     /* align-content: center; */
-    margin:  1rem 0;
+    /* margin:  1rem 0; */
     /* display: grid; */
     /* place-items: center; */
     /* display: flex; */
@@ -1193,8 +1235,8 @@ ul {
 .icon-box-div {
   text-align: center;
   position:  absolute;
-  bottom: 15px;
-  left: 38px;
+  bottom: 80px;
+  /* left: 38px; */
   font-size: 1.9rem;
 }
 .back .icon-box:hover {
@@ -1212,4 +1254,101 @@ ul {
 
 
 /* Responsive Screen Size -- According to src: This should be enough -- 3 sizes for all screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Form */
+/* Contact Form */
+/* Contact Form */
+/* Contact Form */
+
+
+form {
+  background-color: #ffffff;
+  background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+
+
+
+
+
+  border-radius: 30px;
+  align-content: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.contact-form-h1 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-family: 'Dancing Script';
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+      max-width: 100%;
+  }
+}
 
