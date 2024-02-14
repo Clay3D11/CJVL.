@@ -248,7 +248,6 @@ h3 {
   align-content: space-evenly;
 }
 .back .icon-box:hover {
-  box-shadow: inset 0 65px 0 0 #000;
   color: #fff;
 }
 .flip-container {
@@ -266,8 +265,13 @@ h3 {
 }
 .flip-container.hover .flipper,
 .flip-container:hover .flipper {
+  box-shadow: 5px 5px 17px 1px #000;
   transform: rotateY(180deg);
   cursor: pointer;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 .back,
 .flip-container,
@@ -281,9 +285,13 @@ h3 {
   -o-border-radius: 30px;
 }
 .flipper {
-  transition: 0.5s;
+  transition: 0.7s;
   transform-style: preserve-3d;
   position: relative;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
 }
 .back,
 .front {
@@ -343,6 +351,7 @@ h3 {
 }
 .card:hover .card-inner {
   transform: rotateY(180deg);
+  box-shadow: 5px 5px 17px 1px #000;
 }
 .card-back,
 .card-front {
@@ -383,33 +392,6 @@ h3 {
   padding-left: 30px;
   padding-right: 30px;
 }
-.cardbio {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-image: url(/IMG/starts.gif);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-.cardbio h1 {
-  font-size: 2rem;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-.cardbio svg {
-  width: 48px;
-  fill: #333;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-.cardbio:hover {
-  transform: rotate(-5deg) scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
 .card__content {
   position: absolute;
   top: 50%;
@@ -423,10 +405,6 @@ h3 {
   opacity: 0;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
-.cardbio:hover .card__content {
-  transform: translate(-50%, -50%) rotate(0);
-  opacity: 1;
-}
 .card__title {
   margin: 0;
   font-size: 24px;
@@ -438,10 +416,6 @@ h3 {
   font-size: 14px;
   color: #777;
   line-height: 1.4;
-}
-.cardbio:hover svg {
-  scale: 0;
-  transform: rotate(-45deg);
 }
 section h4 {
   font-size: 15px;
