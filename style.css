@@ -678,8 +678,21 @@ button:hover {
 
 
 
-
-
+/* Services Properties */
+/* Services Properties */
+/* Services Properties */
+ fieldset {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: auto; /* So that it would take the height of its content. */
+ }
+ legend p {
+  font-size: 30px;
+  
+ }
 
 
 
@@ -704,8 +717,8 @@ button:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #16a34a;
   background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%);
+  background: #6528f7;
   border-radius: 1em;
   color: white;
   cursor: pointer;
@@ -713,11 +726,15 @@ button:hover {
   font-weight: 500;
   height: 3em;
   line-height: 3em;
-  padding: 0 1em;
+  padding: 0 3em;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   -ms-border-radius: 1em;
   -o-border-radius: 1em;
+
+
+  text-decoration: underline;
+  font-weight: 700;
 }
 .button:hover {
   background-color: #17ac4e;
@@ -928,7 +945,7 @@ body{
 }
 
 .name{margin: 0.8rem 0;}
-
+ 
 .position{
     display: inline-block;
     font-weight: 400;
