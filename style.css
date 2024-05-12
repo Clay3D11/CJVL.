@@ -67,6 +67,11 @@ main {
   font-style: italic;
   font-size: 3rem;
   font-family: "Dancing Script";
+
+
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .marqueemain {
   padding: 0;
@@ -122,16 +127,38 @@ section {
 h2 {
   font-size: 40px;
   color: #fff;
+
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 h4 {
   font-size: 20px;
   color: #fff;
+
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
 }
+
+
+.bio1 {
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 p {
   font-size: 25px;
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
   color: #fff;
+
+  
+
+
+
 }
 .modal {
   max-width: 800px;
@@ -674,6 +701,15 @@ button:hover {
 /* Services Properties */
 /* Services Properties */
 /* Services Properties */
+
+
+.ser {
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
 fieldset {
   padding: 25px;
   display: flex;
@@ -685,6 +721,117 @@ fieldset {
 legend p {
   font-size: 30px;
 }
+
+
+
+/* Timeline Porpperties */
+/* Timeline Porpperties */
+/* Timeline Porpperties */
+
+
+
+
+
+/* a:hover {
+  color: white;
+  background: #004ffc;
+  border-bottom: 0.35em solid black;
+} */
+/* strong {
+  font-weight: 600;
+} */
+/* h1 {
+  font-family: 'Saira', sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 400;
+  font-size: 2.4em;
+} */
+#timeline-content {
+  margin-top: 50px;
+  text-align: center;
+}
+/* Timeline */
+.timeline {
+  border-left: 4px solid #004ffc;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  /* background: rgba(255, 255, 255, 0.03); */
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Chivo', sans-serif;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 30%;
+}
+.timeline h1 {
+  font-family: 'Saira', sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 1.4em;
+}
+.timeline h2,
+.timeline h3 {
+  font-family: 'Saira', sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  left: -217.5px;
+  color: rgba(255, 255, 255, 0.4);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+  font-family: 'Saira', sans-serif;
+}
+.timeline .event:after {
+  box-shadow: 0 0 0 4px #004ffc;
+  left: -57.85px;
+  background: #313534;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Modal Propperty */
 /* Modal Propperty */
@@ -1229,3 +1376,13 @@ html {
   background-image: url('assets/circle-check.svg');
   background-repeat: no-repeat;
 }
+
+
+
+
+
+/* Team */
+/* Team */
+/* Team */
+
+
