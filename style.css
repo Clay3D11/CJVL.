@@ -59,8 +59,16 @@ header nav a:hover {
 main {
   padding-top: 5.5rem;
   background-attachment: fixed;
-  background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%);
+  /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
   background-image: url(/IMG/starts.gif);
+  /* background-image: url(/IMG/IrF.gif); */
+  /* background-position: center; */
+  /* background-repeat:repeat; */
+  background-position: cover;
+  /* background-size: contain; */
+
+
+
   background-color: #333;
   display: grid;
   justify-content: center;
@@ -148,8 +156,8 @@ h2 {
   -webkit-background-clip: text;
 }
 h4 {
-  font-size: 20px;
-  color: #fff;
+  font-size: 15px;
+  /* color: #fff; */
 
   background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
   -webkit-text-fill-color: transparent;
@@ -220,6 +228,7 @@ h3 {
 }
 .back {
   background-image: url(https://images.pexels.com/photos/866351/pexels-photo-866351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* background-image: url(./IMG/IrF.gif); */
   background-size: cover;
 }
 .back .font-a-icons,
@@ -246,9 +255,9 @@ h3 {
 .back .bold {
   font-weight: 700;
 }
-.back .font-a-icons .icon-group {
-  /* margin-top: 8px; */
-}
+/* .back .font-a-icons .icon-group {
+  margin-top: 8px;
+} */
 .back .font-a-icons .fa,
 .back .font-a-icons .link,
 .back .font-a-icons a,
@@ -359,12 +368,13 @@ h3 {
 .marqueesocial div {
   display: flex;
   position: absolute;
-  width: 379%;
+  width: 400%;
   height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  animation: scroll 20s linear infinite;
+  animation: scroll 18s linear infinite;
+  -webkit-animation: scroll 25s linear infinite;
 }
 .marqueesocial div img {
   height: 3rem;
@@ -576,6 +586,7 @@ ul {
     justify-content: center;
   }
   .mainname {
+
     background-image: url(https://i.pinimg.com/originals/a5/6a/ca/a56acad828263b69f6e1583ce811b8e7.gif);
     background-size: cover;
     background-position: center;
@@ -1131,7 +1142,7 @@ body {
   font-weight: 300;
   /* background: var(--color6); */
 
-  font-size: clamp(1rem, 0.343rem + 3.4783vw, 3rem);
+  /* font-size: clamp(1rem, 0.343rem + 3.4783vw, 3rem); */
 
 
   font-family: 'Times New Roman', Times, serif;
@@ -1196,7 +1207,7 @@ li {
   text-decoration: underline;
   margin-bottom: 0.4rem;
 
-  font-size: clamp(1rem, 0.343rem + 3.4783vw, 3rem);
+  /* font-size: clamp(1rem, 0.343rem + 3.4783vw, 3rem); */
   text-align: center;
 }
 
