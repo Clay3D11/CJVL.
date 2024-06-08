@@ -575,9 +575,9 @@ ul {
   }
   section {
     padding: 1rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(-50%);
     border-radius: 50px;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 16px 0 rgba(214, 15, 15, 0.5);
   }
   main {
     padding: 1.5rem;
