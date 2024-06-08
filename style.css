@@ -584,6 +584,13 @@ ul {
     padding-top: 2.5rem;
     display: grid;
     justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(./IMG/dimenssions.png);
+    background-size: cover;
+
+
+
   }
   .mainname {
 
