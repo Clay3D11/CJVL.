@@ -60,8 +60,8 @@ main {
   padding-top: 5.5rem;
   background-attachment: fixed;
   /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
-  background-image: url(/CJVL.com/IMG/dimenssions.png);
-  /* background-image: url(/IMG/IrF.gif); */
+  /* background-image: url(/CJVL.com/IMG/dimenssions.png); */
+  background-image: url(./IMG/dimenssions.png);
   /* background-position: center; */
   /* background-repeat:repeat; */
   /* background-position: cover; */
