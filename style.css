@@ -588,7 +588,7 @@ ul {
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
   }
   main {
-    padding: 1.5rem;
+    /* padding: 1.5rem;
     padding-top: 2.5rem;
     
     display: grid;
@@ -598,7 +598,29 @@ ul {
     background-attachment: fixed;
     background-position: center;
     background-image: url(./IMG/dimenssions.png);
-    background-size: cover;
+    background-size: cover; */
+
+
+
+
+
+
+    
+
+    display: grid;
+    justify-content: center;
+    /* padding-top: 5.5rem; */
+    background-attachment: fixed;
+    /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
+    /* background-image: url(/CJVL.com/IMG/dimenssions.png); */
+    background-image: url(./IMG/dimenssions.png);
+    background-position: center;
+    /* background-size: contain; */
+    /* background-repeat:repeat; */
+    /* background-position: cover; */
+    /* background-color: #333; */
+
+    /* background-size: 100vh; */
 
 
 
