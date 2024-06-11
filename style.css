@@ -600,6 +600,8 @@ ul {
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
+
+    
     
 
 
@@ -785,9 +787,23 @@ fieldset {
   align-items: stretch;
   justify-content: space-between;
   height: auto; /* So that it would take the height of its content. */
+
+  background-image: url(./IMG/starts.gif);
+  
+  
+  
+  /* backdrop-filter: blur(10px); */
+  border-radius: 50px;
+  /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5); */
+
+
+
 }
 legend p {
   font-size: 30px;
+  background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 
