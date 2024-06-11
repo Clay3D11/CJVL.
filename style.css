@@ -598,7 +598,7 @@ ul {
     background-image: url(./IMG/dimenssions.png); */
     
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     
 
