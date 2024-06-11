@@ -57,21 +57,26 @@ header nav a:hover {
 
 }
 main {
-  padding-top: 5.5rem;
-  background-attachment: fixed;
+  display: grid;
+  justify-content: center;
+  /* padding-top: 5.5rem; */
+  /* background-attachment: fixed; */
   /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
   /* background-image: url(/CJVL.com/IMG/dimenssions.png); */
   background-image: url(./IMG/dimenssions.png);
   background-position: center;
+  background-size: contain;
   /* background-repeat:repeat; */
   /* background-position: cover; */
-  background-size: contain;
+  /* background-color: #333; */
+
+  background-size: 100vh;
+  
 
 
 
-  background-color: #333;
-  display: grid;
-  justify-content: center;
+
+
 }
 .mainname {
   background-image: url(https://i.pinimg.com/originals/a5/6a/ca/a56acad828263b69f6e1583ce811b8e7.gif);
@@ -582,12 +587,15 @@ ul {
   main {
     padding: 1.5rem;
     padding-top: 2.5rem;
+    
     display: grid;
     justify-content: center;
+
+
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     background-image: url(./IMG/dimenssions.png);
-    background-size: cover;
+    /* background-size: cover; */
 
 
 
