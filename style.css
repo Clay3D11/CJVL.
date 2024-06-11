@@ -564,6 +564,9 @@ ul {
   font-size: 2rem;
   font-family: "Dancing Script";
 }
+
+
+
 @media (max-width: 430px) {
   header nav a {
 
@@ -595,7 +598,7 @@ ul {
     background-attachment: fixed;
     /* background-position: center; */
     background-image: url(./IMG/dimenssions.png);
-    /* background-size: cover; */
+    background-size: cover;
 
 
 
@@ -692,6 +695,11 @@ ul {
     display: none;
   }
 }
+
+
+
+
+
 form {
   background-color: #fff;
   background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%);
