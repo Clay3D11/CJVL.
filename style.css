@@ -64,8 +64,9 @@ main {
   /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
   /* background-image: url(/CJVL.com/IMG/dimenssions.png); */
   background-image: url(./IMG/dimenssions.png);
-  background-position: center;
-  /* background-size: contain; */
+  /* background-position: center; */
+  background-size: contain
+  /* background-repeat: no-repeat; */
   /* background-repeat:repeat; */
   /* background-position: cover; */
   /* background-color: #333; */
@@ -610,7 +611,7 @@ ul {
 
 
   fieldset {
-    padding: 25px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -628,6 +629,7 @@ ul {
   
   
   }
+  
   legend p {
     font-size: 30px;
     background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
