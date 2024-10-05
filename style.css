@@ -63,15 +63,18 @@ main {
   background-attachment: fixed;
   /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
   /* background-image: url(/CJVL.com/IMG/dimenssions.png); */
-  background-image: url(./IMG/dimenssions.png);
-  /* background-position: center; */
-  background-size: contain
-  /* background-repeat: no-repeat; */
-  /* background-repeat:repeat; */
+  background-image: url(https://i.gifer.com/VW7S.gif);
+  background-position: center;
+  /* background-size: contain; */
+  /* background-repeat:no-repeat; */
   /* background-position: cover; */
   /* background-color: #333; */
 
   /* background-size: 100vh; */
+
+  color: #0f172a;
+
+  
   
 
 
@@ -212,7 +215,8 @@ h3 {
   left: 45%;
 }
 .front {
-  background-image: url(IMG/starts.gif);
+  background-image: url();
+  background-position: center;
   background-repeat: repeat;
   width: 100%;
   height: 100vh;
@@ -233,9 +237,12 @@ h3 {
   text-decoration: underline;
 }
 .back {
-  background-image: url(https://images.pexels.com/photos/866351/pexels-photo-866351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(./img/200w.gif);
   /* background-image: url(./IMG/IrF.gif); */
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+
+  
 }
 .back .font-a-icons,
 .back h1,
@@ -250,13 +257,13 @@ h3 {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: #fff;
-  -moz-text-decoration-color: #2b2828;
+  -moz-text-decoration-color: #ffffff;
 }
 .back p {
   font-size: 2.5rem;
   padding-bottom: 15px;
   width: 35%;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #f5f5f5;
 }
 .back .bold {
   font-weight: 700;
@@ -283,8 +290,10 @@ h3 {
 }
 .back .font-a-icons .website:hover,
 .back .font-a-icons a:hover {
-  color: #999797;
-  text-decoration: underline;
+  /* color: #999797;
+  text-decoration: underline; */
+  color: transparent;
+
 }
 .back .icon-box {
   color: #000;
@@ -431,7 +440,7 @@ h3 {
   flex-direction: column;
 }
 .card-back {
-  background-image: url(https://images.pexels.com/photos/866351/pexels-photo-866351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url();
   background-size: contain;
   color: #fff;
   display: grid;
@@ -983,7 +992,7 @@ legend p {
 
 
   /* height: 20px; */
-  line-height: 4em;
+  /* line-height: 4em; */
   /* padding: 0 3em; */
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
@@ -1554,71 +1563,6 @@ html {
   height: 2rem;
   background-image: url('assets/circle-check.svg');
   background-repeat: no-repeat;
-}
-
-
-
-
-
-/* Quote Generator */
-/* Quote Generator */
-/* Quote Generator */
-
-
-/* body {
-  font-family: "Arial", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #1e1c27;
-  color: white;
-} */
-
-.quote {
-  display: grid;
-  place-items: center;
-}
-
-#quote-container {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  max-width: 500px;
-  width: 100%;
-  max-height: 300px;
-  overflow-y: auto;
-}
-
-
-
-#quote-text {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-#quote-author {
-  font-style: italic;
-  color: #666;
-}
-
-#new-quote-btn {
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-}
-
-#new-quote-btn:hover {
-  background-color: #2980b9;
 }
 
 
