@@ -207,9 +207,9 @@ h2 {
 
 }
 h4 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
-  color: #fff;
+  color: #000000;
 
   /* background: linear-gradient(to right, #fffffff6, #ff0000, #ffffff); */
   background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
