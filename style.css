@@ -722,10 +722,22 @@ ul {
     /* backdrop-filter: blur(10px); */
     border-radius: 50px;
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5); */
-  
-  
-  
+
+
+
+    
+    
+    
   }
+  
+  
+  
+
+
+
+
+
+
   
   legend p {
     font-size: 30px;
@@ -832,6 +844,71 @@ ul {
   .idpic {
     display: none;
   }
+
+
+
+  .exp li {
+
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+    text-align: center;
+    list-style: none;
+
+    
+    
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
