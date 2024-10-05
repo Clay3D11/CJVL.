@@ -10,6 +10,14 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+  transition: ease-in-out all 1.5s;
+}
+
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
