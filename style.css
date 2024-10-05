@@ -35,7 +35,7 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 header nav a {
   color: #fff;
