@@ -38,7 +38,7 @@ header nav {
   justify-content: space-evenly;
 }
 header nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   margin-right: 1rem;
   font-size: 1.5rem;
@@ -291,7 +291,7 @@ h3 {
   align-items: center;
 }
 .mainheadingbusinesscard {
-  color: #fff;
+  color: #000000;
   font-size: 6rem;
   /* text-decoration: underline; */
 }
@@ -640,7 +640,7 @@ ul {
 
 
   .mainheadingbusinesscard {
-    color: #fff;
+    color: #000000;
     font-size: 3rem;
     /* text-decoration: underline; */
   }
@@ -680,8 +680,8 @@ ul {
     color: transparent;
     background-size: cover;  */
 
-      color: #fff;
-      /* text-decoration: none; */
+      color: #000000;
+      text-decoration: none;
       /* margin-right: 1rem;
       font-size: 1.5rem; */
       /* font-family: "Dancing Script"; */
