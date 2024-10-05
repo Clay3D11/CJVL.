@@ -38,7 +38,14 @@ header nav a {
   font-weight: 700;
   text-decoration: underline;
 
-  background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb);
+  /* background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb); */
+
+  background: linear-gradient(to right, #fffffff6, #00ff37, #ffffff);
+  text-shadow: 0 0 20px #061fff, 0 0 40px #0400ff;
+
+
+
+
   /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
 
@@ -49,7 +56,7 @@ header nav a:hover {
   /* color: #e20d0d; */
   
   font-weight: 700;
-  background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb);
+  background: linear-gradient(to right,  #ffffff, #ffffff, #ffffff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
  
@@ -96,13 +103,21 @@ main {
   letter-spacing: 7px;
 }
 .mainheadingbusinesscard {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 3rem;
   font-family: "Dancing Script";
 
 
-  background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb);
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right,  #00ff15f6, #21f3e2, #00ff00); */
+
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff);
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000;
+
+
+
+
+
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
 }
 .marqueemain {
@@ -158,25 +173,61 @@ section {
 }
 h2 {
   font-size: 40px;
-  color: #fff;
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffffff;
+  /* background: linear-gradient(to right, #0400ff, #4121f3, #ffffff); */
 
-  background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #fffffff6, #ffffff, #ffffff);
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
+
+
+  /* background-image: url();
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: contain;  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 h4 {
-  font-size: 15px;
-  /* color: #fff; */
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
 
-  background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right, #fffffff6, #ff0000, #ffffff); */
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
   
 }
 
 
 .bio1 {
-  background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb);
+  /* background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb); */
+
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff);
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000;
+
+
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -233,11 +284,11 @@ h3 {
 }
 .mainheadingbusinesscard {
   color: #fff;
-  font-size: 2.8rem;
-  text-decoration: underline;
+  font-size: 6rem;
+  /* text-decoration: underline; */
 }
 .back {
-  background-image: url(./img/200w.gif);
+  background-image: url(./img/Clainer7.png);
   /* background-image: url(./IMG/IrF.gif); */
   background-size: contain;
   background-position: center;
@@ -505,7 +556,7 @@ section h4 {
   background-position: center;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.685);
   transition: transform 0.3s ease;
 }
 .project-card:hover {
@@ -578,6 +629,31 @@ ul {
 
 
 @media (max-width: 430px) {
+
+
+  .mainheadingbusinesscard {
+    color: #fff;
+    font-size: 3rem;
+    /* text-decoration: underline; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   header nav a {
 
     font-size: clamp(1rem, 0.343rem + 3.4783vw, 3rem);
@@ -587,6 +663,18 @@ ul {
     margin: 0;
     
     /* font-size: 1.7rem; */
+
+
+    background-image: url(./IMG/Background.gif);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover; 
+
+
+
+
 
 
 
@@ -627,7 +715,7 @@ ul {
     justify-content: space-between;
     height: auto; /* So that it would take the height of its content. */
   
-    background-image: url(./IMG/starts.gif);
+    background-image: url(./IMG/);
     
     
     
@@ -641,7 +729,7 @@ ul {
   
   legend p {
     font-size: 30px;
-    background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
+    background: linear-gradient(to right, #1900ff, #21f3e2, #ff0000);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -834,13 +922,14 @@ fieldset {
   justify-content: space-between;
   height: auto; /* So that it would take the height of its content. */
 
-  background-image: url(./IMG/starts.gif);
+  /* background-image: url(./IMG/flotinggala.gif);
+  background-position: center; */
   
   
   
   /* backdrop-filter: blur(10px); */
   border-radius: 50px;
-  /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 0 16px 0 rgb(0, 0, 0);
 
 
 
@@ -973,13 +1062,38 @@ legend p {
   /* appearance: none; */
   /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
   /* background: #6528f7; */
-  background: linear-gradient(to right, #04f3f3f6, #f305f3, #03ffff);
-  -webkit-text-fill-color: transparent;
+
+
+
+  /* background: linear-gradient(to right, #04f3f3f6, #f305f3, #03ffff);
+  -webkit-text-fill-color: transparent; */
+
+
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff);
+  /* text-shadow: 0 0 20px #000000, 0 0 40px #000000; */
+
+
+
+
   -webkit-background-clip: text;
 
   
   border-radius: 1em;
-  color: white;
+  /* color: white; */
+
+
+
+  background-image: url(./IMG/3na6.gif);
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+
+
+
+
+
   cursor: pointer;
   display: inline-block;
 
@@ -987,7 +1101,7 @@ legend p {
 
   font-weight: 700;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 3em;
+  font-size: 5em;
 
 
 
@@ -999,14 +1113,30 @@ legend p {
   -ms-border-radius: 1em;
   -o-border-radius: 1em;
 
-  text-decoration: underline;
-  font-weight: 700;
+  /* text-decoration: underline; */
+  /* font-weight: 700; */
 }
 .button:hover {
   /* background-color: #17ac4e; */
-  background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
+  /* background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+
+  background-image: url(./IMG/OvZ.gif);
+  background-position: center;
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+
+
+
+
+
+
+
+
+
   
 }
 
