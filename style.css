@@ -686,7 +686,6 @@ ul {
       font-size: 1.5rem; */
       /* font-family: "Dancing Script"; */
       /* font-weight: 700; */
-      text-decoration: none;
     
       /* background: linear-gradient(to right,  #ff00eaf6, #21f3e2, #ff00eb); */
     
@@ -875,8 +874,8 @@ ul {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
 
-    text-align: center;
-    list-style: none;
+    /* text-align: center;
+    list-style: none; */
 
     
     
