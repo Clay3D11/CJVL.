@@ -1677,7 +1677,6 @@ html {
 }
 
 .pricing-card {
-  
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1689,6 +1688,10 @@ html {
   background: var(--card-bg);
   color: var(--text-gray);
   transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .pricing-card:hover {
@@ -1744,7 +1747,10 @@ html {
   text-align: center;
   font-size: 2rem; */
   color: var(--text-white);
-  color: #004ffc;
+  color: #fc0000;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
 }
 
 
