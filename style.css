@@ -179,7 +179,7 @@ section {
   max-width: 100rem;
   overflow-y: auto;
   text-align: center;
-  padding: 5rem;
+  padding: 2.5rem;
   margin: 2rem 0;
   display: grid;
   justify-content: center;
@@ -193,16 +193,24 @@ section {
   justify-items: center;
 }
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #ffffff;
+
+  margin-left: 15px;
+
+
   /* background: linear-gradient(to right, #0400ff, #4121f3, #ffffff); */
 
   background: linear-gradient(to right, #fffffff6, #ffffff, #ffffff);
   text-shadow: 0 0 20px #000000, 0 0 40px #000000;
   /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
+
+  
+
+  
 
 
   /* background-image: url();
@@ -248,7 +256,7 @@ p {
 
 
 }
-.modal {
+/* .modal {
   max-width: 800px;
   font-size: 20px;
   font-weight: 500;
@@ -256,7 +264,7 @@ p {
   display: grid;
   place-items: center;
   align-content: space-evenly;
-}
+} */
 img {
   border-radius: 10%;
   object-fit: cover;
@@ -302,7 +310,7 @@ h3 {
 .back {
   background-image: url(./img/cv.png);
   background-size: cover;
-  background-position: top;
+  /* background-position: top; */
   
 }
 
@@ -351,6 +359,7 @@ h3 {
 .back .font-a-icons a,
 .back .font-a-icons span {
   font-size: 16px;
+  align-items: center;
 }
 .back .font-a-icons .website,
 .back .font-a-icons a {
@@ -462,14 +471,14 @@ h3 {
 
 
 section h4 {
-  font-size: 15px;
+  font-size: 25px;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  line-height: 2.5em;
+  letter-spacing: 0.5rem;
+  /* line-height: 2.5em; */
   margin: 10px 0;
   max-width: 100%;
   text-decoration: none;
-  color: red;
+  color: white;
 }
 
 
@@ -502,6 +511,40 @@ section h4 {
   -ms-transform: translateY(-5px);
   -o-transform: translateY(-5px);
 }
+
+
+
+
+
+
+
+.project-cardrealestate {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  /* background: linear-gradient(0deg, #2b2f77 0, #141852 50%, #070b34 100%); */
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.685);
+  transition: transform 0.3s ease;
+}
+
+
+.project-cardrealestate:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
 .project-card h2 {
   font-size: 22px;
   font-weight: 800;
@@ -565,16 +608,16 @@ button {
 
 
 }
-button:hover {
-  /* background-color: #45a049; */
+/* button:hover {
+  background-color: #45a049;
   background-image: url(./IMG/Background.gif);
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   
 
 
 
-}
+} */
 
 
 
@@ -592,7 +635,7 @@ button:hover {
 
 
 fieldset {
-  padding: 25px;
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -612,8 +655,43 @@ fieldset {
   box-shadow: 0 0 30px 0 rgb(0, 0, 0);
 
 
-
 }
+
+
+#services {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 8px;
+  text-align: center;
+}
+
+/* Base styles for all fieldsets */
+#services fieldset {
+  transition: all 0.3s ease;
+  transform: scale(1);
+  filter: blur(0px) brightness(1);
+  z-index: 1;
+}
+
+/* When hovering any fieldset, blur/dim all */
+#services:hover fieldset {
+  filter: blur(2px) brightness(0.7);
+  transform: scale(1);
+}
+
+/* But keep the hovered one sharp and scaled */
+#services fieldset:hover {
+  filter: blur(0) brightness(1);
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+
+
+
+
 legend p {
   font-size: 40px;
   background: linear-gradient(to right, #ff00eaf6, #21f3e2, #ff00eb);
@@ -633,3 +711,41 @@ summary {
   
 }
 
+
+
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px; /* optional spacing between cards */
+  padding: 1rem;
+}
+
+.project-cardrealestate {
+  flex: 1 1 300px; /* grow, shrink, and min width */
+  max-width: 32%; /* max 3 cards per row on large screens */
+  box-sizing: border-box;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.project-cardrealestate video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 900px) {
+  .project-cardrealestate {
+    max-width: 48%; /* 2 per row */
+  }
+}
+
+@media (max-width: 600px) {
+  .project-cardrealestate {
+    max-width: 100%; /* 1 per row */
+  }
+}
